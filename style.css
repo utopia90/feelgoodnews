@@ -1,0 +1,36 @@
+.nav-item {
+	font-weight:600;
+}
+
+.card-image {
+   width: 173px;
+   height: 100px;
+}
+
+.card-title {
+   float: left;
+}
+   
+
+#container{
+   -webkit-column-count: 2;
+      -moz-column-count: 2;
+        column-count: 2;
+   position: relative;
+   justify-self: center;
+   float: left;
+   left: -55px;}
+.post-link {
+   position: relative;
+   top: 2px;
+   left: 100px;
+}
+.card {
+   float: left;
+   width: 490px;
+   height: 170px;
+   justify-content: left;
+   border-top: hidden;
+   border-bottom: hidden;
+   border-right: initial;
+}
