@@ -5,15 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News API</title>
     <script defer type="text/javascript" src="stories.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script
+    src="https://kit.fontawesome.com/658ee16d86.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
 <body>
-    <ul>
-        <li id="news-btn"> <a> Home </a> </li>
-        <li ><a target="_blank" href="sports.html">Sports</a></li>
-        <li><a target="_blank" href="tech.html">Tech</a></li>
-        <li><a target="_blank" href="science.html">Science</a></li>
-      </ul>
-    <div id="stories-container"></div>
-</body>
+    <header>
+        <div class="upper-navbar"><a href="index.html"><img class="logo" src="logo.png"></a></div><span id="quote" class="quote"></span>
+        <nav class="navbar navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar" aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"id="myNavBar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link stories-btn" target="_blank"  href="stories.html"> Inspiring Stories </a> </li>
+                    <li class="nav-item"><a class="nav-link" target="_blank"  href="tech.html">Tech</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="science.html">Science</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="politics.html">Politics</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="sports.html">Sports</a></li>
+                    <li class="nav-item about"><a class="nav-link about" target="_blank" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="contact.html">Contact</a></li>
+                    <li class="nav-item social-icons"><i class="fab fa-twitter"><i class="fab fa-instagram"><i class="fab fa-facebook-f"></i></i>
+                </i></li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input type="search" class="form-control search-bar mr-sm-2" placeholder="Search..." aria-label="Search">
+                        <i class="fas fa-search search-span"></i>
+                </form>
+            </div>
+          </nav>
+        </header>
+    </div>
+    <br>
+        <!--prueba-->
+        <div class="container">
+            <div class="row">
+                <div class="main-container col-md-10"id="stories-container">
+                </div>
+            </div>
+            <div class="right-column">Latest News
+                <div id="latest-news-container"></div>
+            </div>
+        </div>
+        </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body><br><br>
+<footer class=" footer container py-6">
+    <div class="row">
+      <div class="col-12 col-md">
+   
+        <small class="d-block mb-3 text-muted">&copy; Feel Good News</small>
+      </div>
+        <div class="col-6 col-md">
+            <h5>Newsletter</h5>
+            <p class="text-muted">Suscribe to wake up with happy news every day in your mail!</p>
+            <input type="mail" class="mail-input"><br>
+            <button type="submit" class="suscribe-btn">Suscribe</button>
+        </div>
+      <div class="col-6 col-md">
+        <h5>Contact</h5>
+        <ul class="list-unstyled text-small">
+          <li><p class="text-muted">news.feelgood@gmail.com</p></li>
+          <li><p class="text-muted">2659  Brownton Road <br>38701 Greenville (Mississsipi)<br>+1-202-555-0124
+          </p></li><br>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Menu</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" target="_blank" href="stories.html">Inspiring Stories</a></li>
+          <li><a class="text-muted" target="_blank" href="tech.html">Tech</a></li>
+          <li><a class="text-muted" target="_blank" href="science.html">Science</a></li>
+          <li><a class="text-muted" target="_blank" href="politics.html">Politics</a></li>
+          <li><a class="text-muted" target="_blank" href="sports.html">Sports</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Follow Us</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Facebook</a></li>
+          <li><a class="text-muted" href="#">Twitter</a></li>
+          <li><a class="text-muted" href="#">Instagram</a></li>
+          <li><a class="text-muted" href="#">RSS</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted"  target="_blank" href="about.html">About Us</a></li>
+          <li><a class="text-muted"  target="_blank" href="#">Privacy</a></li>
+          <li><a class="text-muted"  target="_blank" href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </html>

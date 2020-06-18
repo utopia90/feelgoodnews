@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News API</title>
+    <script defer type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar" aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"id="myNavBar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" target="_blank" href="index.html">Feel Good News</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank"  href="stories.html"> Inspiring Stories </a> </li>
+                    <li class="nav-item"><a class="nav-link" target="_blank"  href="tech.html">Tech</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="science.html">Science</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="politics.html">Politics</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="sports.html">Sports</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="contact.html">Contact</a></li>
+
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input type="search" class="form-control search-bar mr-sm-2" placeholder="Search..." aria-label="Search">
+                    <i class="fas fa-search search-span"></i>
+                </form>
+            </div>
+          </nav>
+        </header>
+    </div>
+    <br>
+    <p class="contact-text"> We'd love to hear from you! Leave a message below and we will get in touch with you shortly </p>
+    <form class="cf form-contact">
+        <div class="half left cf">
+          <input class="contact-input" type="text" id="input-name" placeholder="Name">
+          <input class="contact-input" type="email" id="input-email" placeholder="Email address">
+          <input class="contact-input" type="text" id="input-subject" placeholder="Subject">
+        </div>
+        <div class="half right cf">
+          <textarea class="text-area" name="message" type="text" id="input-message" placeholder="Message"></textarea>
+        </div>  
+        <input type="submit" value="Submit" id="input-submit">
+      </form>
