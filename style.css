@@ -265,13 +265,15 @@ margin-bottom: 1em;
    .right-column{
       display: none;
    }
+   .container {
+      margin-right: 2000px;
+   }
    .main-container{
       display: grid;
-      grid-template-columns: repeat(1, 60fr);
-      grid-template-rows: repeat(1, 60vw);
+      grid-template-columns: repeat(1, 100fr);
+      grid-template-rows: repeat(1, 100vw);
       grid-gap: 15px;
       left: -30px;
-      margin-left: 50px;
       z-index: 0;
    }
    .navbar{
