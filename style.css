@@ -1,13 +1,21 @@
 body{
    background-color: whitesmoke;
 }
-
+.hide {
+   display: none;
+}
 .nav-link {
    font-weight:600;
    color: #393e46;
 }
 .nav-item{
    margin-left: 20px;
+}
+.product-img {
+   align-self: center;
+}
+.product-title{
+   text-align: center;
 }
 .nav-link:hover {
    background-color: whitesmoke;
@@ -29,7 +37,7 @@ body{
    top: -70px;
 }
 .about {
-   margin-left: 110px;
+   margin-left: 40px;
 }
 .search-btn{
    background-color: #FADA5E;
@@ -37,6 +45,9 @@ body{
    height: 25px;
    border: none;
    border-radius: 20px;
+}
+.shop-active {
+   background-color: white;
 }
 .card-image {
    width: 173px;
@@ -94,9 +105,13 @@ body{
    justify-content: left;
    border:none;
 }
+.product-img {
+   height: 200px;
+   width: 240px;
+}
 
 .right-column{
-   position: fixed;
+   position: absolute;
    bottom: -1780px;
    right: 20px;
    background-color: white;
@@ -121,6 +136,12 @@ h1 {
    right: -400px;
    bottom: 8px;
    
+}
+.shop-text {
+   margin-top: 20px;
+   margin-left: 60px;
+   margin-bottom: 20px;
+   margin-right: 60px;
 }
 .form-contact {
    max-width: 600px;
@@ -154,14 +175,20 @@ margin-bottom: 1em;
 }
 
 .right { width: 50%; }
-
+.shop-now{
+   border: none;
+   background-color: #32e0c4;
+   padding: 8px;
+}
 .left {
    margin-right: 2%; 
 }
 .latest-news-link:hover {
    color: #32e0c4;
 }
-
+.product-card {
+   padding: 20px;
+}
 .contact-text{
    text-align: center;
    position: relative;

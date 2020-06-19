@@ -1,6 +1,8 @@
 const container = document.getElementById('container');
 const latestNewsContainer = document.getElementById("latest-news-container");
 const quoteContainer = document.getElementById("quote");
+const searchBtn = document.getElementsByClassName("search-btn");
+const searchInput = document.getElementsByClassName("search-bar");
 
 
 window.onload = function(){
@@ -81,8 +83,12 @@ function displayQuote(){
   .then(res => {
     quoteContainer.innerHTML=`<p class="quote-text"><i>${res.text}</i>"<b><br>&nbsp;&nbsp;${res.author}</b></p></span>`
   }).catch(err => {
-	console.log(err);
+  console.log(err);
   });}
 
+$(document).ready(function(){
+  $(searchBtn).click(function(){
+    window.location.replace("https://google.com/")
+})});
 
 
